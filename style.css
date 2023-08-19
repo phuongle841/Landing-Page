@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  color: white;
+}
+nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 30px;
+  background-color: #1f2937;
+}
+nav a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.Header-Logo {
+  margin-right: auto;
+  margin-left: 40px;
+  font-size: x-large;
+  font-weight: 700;
+}
+.body-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #1f2937;
+}
+.body-1 div {
+  width: 500px;
+  flex-grow: 0;
+}
+.body-1 div header,
+.body-1 div p {
+  margin-bottom: 20px;
+}
+.body-1 div header {
+  font-size: x-large;
+  font-weight: 700;
+}
+.body-1 div button {
+  width: 30%;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #3882f6;
+}
+.img1 {
+  width: 500px;
+  height: 350px;
+}
+.body-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-2 header {
+  color: black;
+}
+.body-2 .moon-images {
+  display: flex;
+  text-align: center;
+}
+.moon-images .small-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-image img {
+  width: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+.small-image p {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1f2937;
+}
+.body-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  align-items: center;
+  padding: 20px 0;
+}
+.body-3 p {
+  width: 400px;
+  color: black;
+  margin-bottom: 2%;
+  font-style: italic;
+}
+.body-3 .Sign {
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 0;
+}
