@@ -27,17 +27,25 @@ nav a {
   font-size: large;
   text-decoration: none;
   margin-right: 10px;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+nav a:hover {
+  transition: ease-in-out 0.2s;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  border: #3882f6;
 }
 .Header-Logo {
   margin-right: auto;
-  margin-left: 40px;
-  font-size: x-large;
+  margin-left: 30px;
+  font-size: 24px;
   font-weight: 700;
 }
 .body-1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px;
   background-color: #1f2937;
 }
@@ -50,8 +58,11 @@ nav a {
   margin-bottom: 20px;
 }
 .body-1 div header {
-  font-size: x-large;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 800;
+}
+.body-1 div p {
+  padding-left: 5%;
 }
 .body-1 div button {
   width: 30%;
@@ -62,26 +73,37 @@ nav a {
 .img1 {
   width: 500px;
   height: 350px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .body-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5% 8%;
+  gap: 20px;
 }
 .body-2 header {
   color: black;
+  font-size: 32px;
+  font-weight: 800;
 }
 .body-2 .moon-images {
   display: flex;
   text-align: center;
+  gap: 10px;
 }
 .moon-images .small-image {
+  width: 200px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .small-image img {
-  width: 200px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
   border: 2px solid #3882f6;
   border-radius: 10px;
 }
@@ -95,7 +117,7 @@ nav a {
   flex-direction: column;
   background-color: #e5e7eb;
   align-items: center;
-  padding: 20px 0;
+  padding: 5%;
 }
 .body-3 p {
   width: 400px;
@@ -116,7 +138,7 @@ nav a {
 .body-4 .inner {
   display: flex;
   gap: 20px;
-  padding: 5%;
+  padding: 2% 5% ;
   margin: 5%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -131,14 +153,13 @@ nav a {
   border: #e5e7eb solid 1px;
   border-radius: 3px;
 }
-.inner button:hover{
+.inner button:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 3%;
   background-color: #1f2937;
 }
