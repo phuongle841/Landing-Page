@@ -109,3 +109,36 @@ nav a {
   text-align: right;
   margin-bottom: 0;
 }
+.body-4 {
+  display: flex;
+  justify-content: center;
+}
+.body-4 .inner {
+  display: flex;
+  gap: 20px;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+}
+.inner button {
+  width: 30%;
+  height: 50%;
+  background-color: #3882f6;
+  border: #e5e7eb solid 1px;
+  border-radius: 3px;
+}
+.inner button:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: #1f2937;
+}
